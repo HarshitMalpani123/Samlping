@@ -1,5 +1,5 @@
 FROM nginx:alpine
-COPY ./app
+COPY ./html
 WORKDIR /app
 
 CMD ["app.html"]
